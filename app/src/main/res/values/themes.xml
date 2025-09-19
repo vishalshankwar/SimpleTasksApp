@@ -3,6 +3,8 @@
     <style name="Base.Theme.SimpleTasksApp" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowBackground">@color/mainBg</item>
+        <item name="android:statusBarColor">@color/mainBg</item>
     </style>
 
     <style name="Theme.SimpleTasksApp" parent="Base.Theme.SimpleTasksApp" />
